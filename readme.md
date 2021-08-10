@@ -1,4 +1,6 @@
-# REMOVING PRE-INSALLED APPS WITHOUT ROOTING
+# Removing Pre-Installed Apps
+
+> Root access is not needed
 
 ## TCL 10 PRO
 
