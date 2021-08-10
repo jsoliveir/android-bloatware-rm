@@ -31,6 +31,7 @@ pm uninstall -k --user 0 com.google.android.videos
 
 ```bash
 pm install-existing com.tctui
+pm install-existing com.tcl.token
 pm install-existing com.tcl.fota.system
 pm install-existing com.tcl.tct.weather
 pm install-existing com.tcl.camera
