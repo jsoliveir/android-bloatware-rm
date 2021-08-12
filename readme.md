@@ -36,4 +36,6 @@ pm install-existing com.tcl.fota.system
 pm install-existing com.tcl.tct.weather
 pm install-existing com.tcl.camera
 pm install-existing com.tcl.android.launcher
+pm install-existing com.tcl.screenshotex
+pm install-existing com.tct.smartcover
 ```
