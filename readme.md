@@ -38,4 +38,5 @@ pm install-existing com.tcl.camera
 pm install-existing com.tcl.android.launcher
 pm install-existing com.tcl.screenshotex
 pm install-existing com.tct.smartcover
+pm install-existing com.tct.dialer.a_overlay
 ```
