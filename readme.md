@@ -27,9 +27,13 @@ pm uninstall -k --user 0 com.tct.smart.tlink
 pm uninstall -k --user 0 com.tct.music
 pm uninstall -k --user 0 com.tct.iris
 pm uninstall -k --user 0 com.tct.simplelauncher
-pm uninstall -k --user 0 com.tcl.android.launcher
 pm uninstall -k --user 0 com.tct.tctsmartapprecommend
 pm uninstall -k --user 0 com.tcl.usercare
+pm uninstall -k --user 0 com.tct.simplelauncher.a_overlay
+pm uninstall -k --user 0 com.tcl.android.launcher.a_overlay
+pm uninstall -k --user 0 com.tct.sidebar
+pm uninstall -k --user 0 com.tclhz.gallery.a_overlay
+
 pm uninstall -k --user 0 com.google.android.apps.youtube.music
 pm uninstall -k --user 0 com.google.android.apps.wellbeing
 pm uninstall -k --user 0 com.google.android.apps.tachyon
@@ -49,7 +53,7 @@ pm uninstall -k --user 0 com.google.android.apps.nbu.files
 pm uninstall -k --user 0 com.tct.tctsmartapprecommend
 ```
 
-2) Mandatory apps:
+2) Required apps:
 
 ```bash
 pm install-existing com.tctui
