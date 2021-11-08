@@ -51,6 +51,8 @@ pm uninstall -k --user 0 com.google.android.keep
 pm uninstall -k --user 0 com.google.android.youtube
 pm uninstall -k --user 0 com.google.android.apps.nbu.files
 pm uninstall -k --user 0 com.tct.tctsmartapprecommend
+pm uninstall -k --user 0 com.tct.onetouchbooster
+pm uninstall -k --user 0 com.tct.applock
 ```
 
 2) Required apps:
