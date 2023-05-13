@@ -5,18 +5,23 @@
 ## XIAOMI 12
 
 ```bash
-$(pm list packages chrome); do pm uninstall -k --user 0 ${i#*:}; done
-$(pm list packages amazon); do pm uninstall -k --user 0 ${i#*:}; done
-$(pm list packages com.miui.micloudsync ); do pm uninstall -k --user 0 ${i#*:}; done                          <
-$(pm list packages com.miui.videoplayer ); do pm uninstall -k --user 0 ${i#*:}; done                                      <
-$(pm list packages com.miui.gallery ); do pm uninstall -k --user 0 ${i#*:}; done                                          <
-$(pm list packages com.miui.securityad ); do pm uninstall -k --user 0 ${i#*:}; done                                   <
-$(pm list packages com.miui.securitycenter ); do pm uninstall -k --user 0 ${i#*:}; done                                  <
-$(pm list packages com.miui.mishare ); do pm uninstall -k --user 0 ${i#*:}; done                                             <
-$(pm list packages com.miui.cloudbackup ); do pm uninstall -k --user 0 ${i#*:}; done                                  <
-$(pm list packages com.miui.security* ); do pm uninstall -k --user 0 ${i#*:}; done                                        <
-$(pm list packages com.miui.security ); do pm uninstall -k --user 0 ${i#*:}; done                                       <
-$(pm list packages com.miui.guard ); do pm uninstall -k --user 0 ${i#*:}; done
+for i in $(pm list packages chrome); do pm uninstall -k --user 0 ${i#*:}; done
+for i in $(pm list packages amazon); do pm uninstall -k --user 0 ${i#*:}; done
+for i in $(pm list packages com.miui.micloudsync ); do pm uninstall -k --user 0 ${i#*:}; done                          <
+for i in $(pm list packages com.miui.videoplayer ); do pm uninstall -k --user 0 ${i#*:}; done                                      <
+for i in $(pm list packages com.miui.gallery ); do pm uninstall -k --user 0 ${i#*:}; done                                          <
+for i in $(pm list packages com.miui.securityad ); do pm uninstall -k --user 0 ${i#*:}; done                                   <
+for i in $(pm list packages com.miui.securitycenter ); do pm uninstall -k --user 0 ${i#*:}; done                                  <
+for i in $(pm list packages com.miui.mishare ); do pm uninstall -k --user 0 ${i#*:}; done                                             <
+for i in $(pm list packages com.miui.cloudbackup ); do pm uninstall -k --user 0 ${i#*:}; done                                  <
+for i in $(pm list packages com.miui.security* ); do pm uninstall -k --user 0 ${i#*:}; done                                        <
+for i in $(pm list packages com.miui.security ); do pm uninstall -k --user 0 ${i#*:}; done                                       <
+for i in $(pm list packages com.miui.guard ); do pm uninstall -k --user 0 ${i#*:}; done
+pm uninstall -k --user 0 com.xiaomi.joyose
+pm uninstall -k --user 0 com.xiaomi.payment
+pm uninstall -k --user 0 com.xiaomi.mipicks
+pm uninstall -k --user 0 com.xiaomi.mtb
+pm uninstall -k --user 0  com.xiaomi.glgm
 pm uninstall -k --user 0 com.google.android.apps.youtube.music
 pm uninstall -k --user 0 com.google.android.apps.wellbeing
 pm uninstall -k --user 0 com.google.android.apps.tachyon
