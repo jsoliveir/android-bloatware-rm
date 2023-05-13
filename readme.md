@@ -2,6 +2,40 @@
 
 > Root access is not needed
 
+## XIAMO 12
+
+```bash
+$(pm list packages chrome); do pm uninstall -k --user 0 ${i#*:}; done
+$(pm list packages amazon); do pm uninstall -k --user 0 ${i#*:}; done
+$(pm list packages xiaomi); do pm uninstall -k --user 0 ${i#*:}; done
+$(pm list packages com.miui.micloudsync ); do pm uninstall -k --user 0 ${i#*:}; done                          <
+$(pm list packages com.miui.videoplayer ); do pm uninstall -k --user 0 ${i#*:}; done                                      <
+$(pm list packages com.miui.gallery ); do pm uninstall -k --user 0 ${i#*:}; done                                          <
+$(pm list packages com.miui.securityad ); do pm uninstall -k --user 0 ${i#*:}; done                                   <
+$(pm list packages com.miui.securitycenter ); do pm uninstall -k --user 0 ${i#*:}; done                                  <
+$(pm list packages com.miui.mishare ); do pm uninstall -k --user 0 ${i#*:}; done                                             <
+$(pm list packages com.miui.cloudbackup ); do pm uninstall -k --user 0 ${i#*:}; done                                  <
+$(pm list packages com.miui.security* ); do pm uninstall -k --user 0 ${i#*:}; done                                        <
+$(pm list packages com.miui.security ); do pm uninstall -k --user 0 ${i#*:}; done                                       <
+$(pm list packages com.miui.guard ); do pm uninstall -k --user 0 ${i#*:}; done
+pm uninstall -k --user 0 com.google.android.apps.youtube.music
+pm uninstall -k --user 0 com.google.android.apps.wellbeing
+pm uninstall -k --user 0 com.google.android.apps.tachyon
+pm uninstall -k --user 0 com.google.android.apps.podcasts
+pm uninstall -k --user 0 com.google.android.apps.subscriptions.red
+pm uninstall -k --user 0 com.google.android.videos
+pm uninstall -k --user 0 com.google.android.apps.docs
+pm uninstall -k --user 0 com.google.android.apps.maps
+pm uninstall -k --user 0 com.google.android.apps.photos
+pm uninstall -k --user 0 com.google.android.apps.docs.editors.sheets
+pm uninstall -k --user 0 com.google.android.calendar
+pm uninstall -k --user 0 com.google.android.gm
+pm uninstall -k --user 0 com.google.android.googlequicksearchbox
+pm uninstall -k --user 0 com.google.android.keep
+pm uninstall -k --user 0 com.google.android.youtube
+pm uninstall -k --user 0 com.google.android.apps.nbu.files
+```
+
 ## TCL 10 PRO
 
 Get into a shell session using adb 
