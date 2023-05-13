@@ -2,12 +2,11 @@
 
 > Root access is not needed
 
-## XIAMO 12
+## XIAOMI 12
 
 ```bash
 $(pm list packages chrome); do pm uninstall -k --user 0 ${i#*:}; done
 $(pm list packages amazon); do pm uninstall -k --user 0 ${i#*:}; done
-$(pm list packages xiaomi); do pm uninstall -k --user 0 ${i#*:}; done
 $(pm list packages com.miui.micloudsync ); do pm uninstall -k --user 0 ${i#*:}; done                          <
 $(pm list packages com.miui.videoplayer ); do pm uninstall -k --user 0 ${i#*:}; done                                      <
 $(pm list packages com.miui.gallery ); do pm uninstall -k --user 0 ${i#*:}; done                                          <
